@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday Selly</title>
+
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="title">
+      Happy birthday Selly
+    </div>
+    <div class="wishes">
+        <p class="wish">
+          Hai el, Happy birthday ya semoga di umur kamu yang 18 ini semakin happy, sehat terus, dimudahkan rezekinya.
+          Dan ya semoga kamu bisa dapet cowo yang lebih baik dari aku dan semua masa lalu kamu. Emang sih hidup ini ga selamanya
+          tentang romansa, tapi ini salah satu apa ya bisa dibilang nya, salah satu doa lah dari aku untuk kamu hehe... <br> 
+          Semangat terus ya el kejar cita cita nya. Semoga kamu dapet semua nya apa pun itu yang kamu mau. <br>
+          This is the last thing i can give to you el hehe. Im so sorry if i made u sad yesterday <br>
+          Mungkin segini aja wish nya hehe aku gatau harus ngetik apa lagi. <br>
+          <p class="love">I love u el</p>
+          <p class="writer"> - Farrel maahira </p>
+        </p>
+    </div>
+  </div>
+
+  <canvas id="my-canvas"></canvas>
+  <audio src=""></audio>
+</body>
+<script src="index.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script>
+  var confettiSetting = {
+    target : 'my-canvas',
+    respawn : true
+  };
+  var confetti = new ConfettiGenerator(confettiSetting);
+  confetti.render();
+</script>
+</html>
